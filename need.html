@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>İHTİYAÇ KREDİSİ</title>
+</head>
+<body>
+<div class="card" style="width: 20rem;">
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-md1">Çekmek istediğiniz tutar</span>
+        </div>
+        <input type="text" id="cm" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md1">
+      </div>
+
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-md2">Aylık net gelir</span>
+        </div>
+        <input type="text" id="ayn" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md2">
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-md3">Vade</span>
+        </div>
+        
+        <select class="custom-select my-1 mr-md-3" id="vade1">
+          <option selected>Vade Seçenekleri</option>
+          <option id="12ay1">12 Ay</option>
+          <option id="24ay1">24 Ay</option>
+          <option id="36ay1">36 Ay</option>
+        </select>
+    </div>
+
+    <button id="nd" type="button" class="btn btn-outline-info">İHTİYAÇ KREDİSİ HESAPLA</button>
+</div>
+
+<p id="demo1"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>

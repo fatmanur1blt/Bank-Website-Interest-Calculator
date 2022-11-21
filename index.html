@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="kredi,ihtiyaç,konut,araç,vasıta,banka">  <!--SEO-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>HAYAT BANK'A HOŞGELDİNİZ </title>
+</head>
+<link rel="stylesheet" href="style.css"/>
+<body>
+
+<nav id="nav1"class="navbar navbar-expand-md h-20 " style="background-color: rgb(76, 129, 245);">
+    <div class="container-fluid">
+        <img src="png-transparent-bank-loan-cartoon-interest-bank-building-logo-cartoon.png" class="h-20 d-inline-block" style="width: 130px;">
+        <a class="navbar-brand d-inline-block" href="#"><strong>HAYAT <br> BANK</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-normal text-dark" href="#">İLETİŞİM</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kredi Seçenekleri
+            </a>
+            <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="need.html">İhtiyaç Kredisi</a></li> 
+              <li><a class="dropdown-item" href="car.html">Araç Kredisi</a></li>
+              <li><a class="dropdown-item" href="konut.html">Konut Kredisi</a></li>
+            </ul>
+          </li>
+        
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="dnm" class="form-control me-1" style="width: 280px;"type="search" placeholder="Yapmak istediğiniz işlemi giriniz" aria-label="Search">
+          <button id="deneme" class="btn btn-outline-warning" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="text-center pt-4 mt-4 px-4 border-bottom">
+        <h1 class="display-4 fw-bold fs-1">Kredi Seçenekleri</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container my-4">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card mb-3 shadow">
+                    <h5 class="text-center mt-2">İhtiyaç Kredisi</h5>
+                    <div class="card-body">
+                        <p class="text-center">%1.6'dan başlayan faiz ile ihtiyaçlarınızı ertelemeyin.</p>
+                        <div id="main1">
+                          <a href="need.html">
+                           <button id="need" type="button" class="btn btn-warning">HESAPLA</button>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 shadow">
+                    <h5 class="text-center mt-2">Araç Kredisi</h5>
+                    <div class="card-body">
+                        <p class="text-center">%1.3'dan başlayan faiz ile ihtiyaçlarınızı ertelemeyin.</p>
+                        <div id="main2">
+                          <a href="car.html">
+                          <button id="car" type="button" class="btn btn-warning">HESAPLA</button>
+                          </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 shadow">
+                    <h5 class="text-center mt-2">Konut Kredisi</h5>
+                    <div class="card-body">
+                        <p class="text-center">%1.7'dan başlayan faiz ile ihtiyaçlarınızı ertelemeyin.</p>
+                        <div id="main3">
+                          <a href="konut.html">
+                          <button id="hs" type="button" class="btn btn-warning">HESAPLA</button>
+                          </a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer class="py-5 text-white" style="background-color: rgb(76, 129, 245);">
+    <div class="container text-center">
+        <span>Tüm Hakları Saklıdır. @2023 </span>
+    </div>
+  </footer>
+
+    
+     <script src="app.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
+

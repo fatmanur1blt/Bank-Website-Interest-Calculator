@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>KONUT KREDİSİ</title>
+</head>
+<body>
+    <div class="card" style="width: 20rem;">
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-md4">Çekmek istediğiniz tutar</span>
+            </div>
+            <input type="text" id="cm1" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md4">
+          </div>
+    
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-md5">Aylık net gelir</span>
+            </div>
+            <input type="text" id="ayn1" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-md5">
+        </div>
+    
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-md6">Vade</span>
+            </div>
+            
+            
+            <select class="custom-select my-1 mr-md-3" id="vade2">
+              <option selected>Vade Seçenekleri</option>
+              <option id="12ay2">12 Ay</option>
+              <option id="24ay2">24 Ay</option>
+              <option id="36ay2">36 Ay</option>
+              <option id="48ay2">48 Ay</option>
+              <option id="60ay2">60 Ay</option>
+            </select>
+        </div>
+    
+        <button id="nd1" type="button" class="btn btn-outline-danger">KONUT KREDİSİ HESAPLA</button>
+    </div>
+    <p id="demo2"></p>
+        <script src="konut.js"></script>
+</body>
+</html>
