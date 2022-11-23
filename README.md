@@ -1,5 +1,5 @@
 # Banka sitesi Faiz Hesaplama
- Bir bankanın sitesine giderek kredi seçeneklerinin incelendiği bir site. Yapmak istediğiniz işleme girip gerekli verileri girdikten sonra innerHTML sayesinde sonucu html sayfasında görebiliyoruz.
+ Oluşturulan bankanın sitesine giderek kredi seçeneklerinin incelendiği bir site. Yapmak istediğiniz işleme girip gerekli verileri girdikten sonra <em> `innerHTML` </em> sayesinde sonucu html sayfasında görebiliyoruz.
 
 <br/>
 <video src="./bank.mp4"></video>
