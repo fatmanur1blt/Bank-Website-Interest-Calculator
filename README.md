@@ -2,4 +2,5 @@
  Bir bankanın sitesine giderek kredi seçeneklerinin incelendiği bir site.
 
 <br/>
-<video src="C:\Users\fatmanur bulut\Desktop\frontend projects\BANK\bank.mp4" controls > </video>
+<video><source src="./bank.mp4"> </video>
+<img src="./bankpng.png">
